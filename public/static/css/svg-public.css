@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.svg-template {
+  width: 100%;
+  height: 100%;
+  background: #0a2949;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.caozuo-group {
+  cursor: pointer;
+}
+
+.cls-1 {
+  fill: #0a2949;
+}
+.close {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  cursor: pointer;
+  color: #aaa;
+  font-size: 12px;
+}
+.close:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+.high-light {
+  color: red;
+}

@@ -1,0 +1,39 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "jquery": true
+  },
+  "extends": ["plugin:vue/essential", "@vue/standard"],
+  "rules": {
+    "space-before-function-paren": "off",
+    "semicolon": 0,
+    "indent": "off",
+    "semi": 0,
+    "comma-spacing": 0,
+    "space-before-blocks": [0, "always"],
+    "padded-blocks": 0,
+    "no-trailing-spaces": 1,
+    "prefer-const": 0,
+    "object-curly-spacing": [0, "never"],
+    "no-multiple-empty-lines": [1, {"max": 2}],
+    "comma-dangle": [2, "never"],
+    "no-mixed-spaces-and-tabs": [2, false],
+    "no-undef": 1,
+    "key-spacing": [0, { "beforeColon": false, "afterColon": true }],
+    "spaced-comment": 0,
+    "arrow-spacing": 0,
+    "space-infix-ops": 0,
+    "no-dupe-keys": 2,
+    "no-multi-spaces": 1,
+    "space-unary-ops": [0, { "words": true, "nonwords": false }],
+    "keyword-spacing": ["error", { "overrides": {
+      "if": { "after": true },
+      "for": { "after": false },
+      "while": { "after": false }
+    }}]
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  }
+}
